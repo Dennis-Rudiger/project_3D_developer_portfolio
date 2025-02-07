@@ -25,6 +25,7 @@ const EarthCanvas = () => {
         far: 200,
         position: [-4, 3, 6],
       }}
+      style={{ pointerEvents: 'none' }} // Ensures canvas ignores pointer events (hover)
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls

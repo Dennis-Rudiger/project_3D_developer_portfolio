@@ -23,6 +23,10 @@ import {
   threejs,
 } from "../assets";
 
+import github from "../assets/github.png";
+import linkedin from "../assets/linkedin.png";
+import twitter from "../assets/twitter.png";
+
 export const navLinks = [
   {
     id: "about",
@@ -251,6 +255,24 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+  },
+];
+
+export const socialLinks = [
+  {
+    name: '',
+    icon: github,
+    link: 'https://github.com',
+  },
+  {
+    name: '',
+    icon: linkedin,
+    link: 'https://linkedin.com',
+  },
+  {
+    name: '',
+    icon: twitter,
+    link: 'https://twitter.com',
   },
 ];
 
