@@ -15,6 +15,14 @@ module.exports = {
         "jodhpur": "#dad1c8",
         "piquante": "#ca3f16",
         "cloud": "#dbe0e1",
+        "lusty-lavender":"#8d5eb7",
+        "azulando":"#211d49",
+        "poodle": "#eecee6",
+        "yoghurt": "#f5e9ce",
+        "hotpink":"#85001a",
+        "calmpink": "#c62a43",
+        "hotblue": "#150460",
+        "calmblue":"#2e2364",
 
       },
       boxShadow: {

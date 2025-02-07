@@ -6,9 +6,9 @@ import { technologies } from "../constants";
 
 const Tech = () => {
   return (
-    <div className='flex flex-row flex-wrap justify-center gap-10'>
+    <div className='flex flex-row flex-wrap justify-center gap-20 min-h-[60vh]'>
       {technologies.map((technology) => (
-        <div className='w-28 h-28' key={technology.name}>
+        <div className='w-28 h-28 cursor-grab active:cursor-grabbing' key={technology.name}>
           <BallCanvas icon={technology.icon} />
         </div>
       ))}
