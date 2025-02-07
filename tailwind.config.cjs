@@ -33,6 +33,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
+        "footer-gradient": "linear-gradient(to right, #211d49, #150460)",
       },
     },
   },
