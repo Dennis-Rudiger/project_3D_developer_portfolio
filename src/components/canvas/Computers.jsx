@@ -5,7 +5,16 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./desktop_pc/scene.gltf", true); // Enable draco compression
+
+  // Optimize geometry
+  computer.scene.traverse((child) => {
+    if (child.isMesh) {
+      child.geometry.dispose();
+      child.geometry = child.geometry.clone();
+      child.geometry.dispose = () => {};
+    }
+  });
 
   // Add validation to ensure the model is loaded properly
   useEffect(() => {
@@ -77,7 +86,7 @@ const ComputersCanvas = () => {
       shadows
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }}
+      gl={{ preserveDrawingBuffer: true, powerPreference: "high-performance" }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls

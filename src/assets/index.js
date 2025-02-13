@@ -1,8 +1,8 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import backend from './compressed/backend.webp';
+import creator from './compressed/creator.webp';
+import mobile from './compressed/mobile.webp';
+import web from './compressed/web.webp';
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -60,6 +60,4 @@ export {
   kengen,
   randr,
   upwork,
-
-
 };

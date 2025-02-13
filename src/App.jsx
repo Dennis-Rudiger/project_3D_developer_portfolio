@@ -1,5 +1,13 @@
-import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Footer, SEO } from "./components";
+import { Suspense, lazy } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { Feedbacks, Navbar, Tech, StarsCanvas, Footer, SEO } from "./components";
+
+// Lazy load components
+const Hero = lazy(() => import('./components/Hero'));
+const About = lazy(() => import('./components/About'));
+const Experience = lazy(() => import('./components/Experience'));
+const Works = lazy(() => import('./components/Works'));
+const Contact = lazy(() => import('./components/Contact'));
 
 const App = () => {
   return (
@@ -8,15 +16,21 @@ const App = () => {
       <div className='relative z-0 bg-primary'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar/>
-          <Hero/>
+          <Suspense fallback={<div>Loading...</div>}>
+            <Hero/>
+          npm run convert-images          </Suspense>
         </div>
-        <About/>
-        <Experience/>
-        <Tech/>
-        <Works/>
+        <Suspense fallback={<div>Loading...</div>}>
+          <About/>
+          <Experience/>
+          <Tech/>
+          <Works/>
+        </Suspense>
         <Feedbacks/>
         <div className='relative z-0'>
-          <Contact/>
+          <Suspense fallback={<div>Loading...</div>}>
+            <Contact/>
+          </Suspense>
           <StarsCanvas/>
         </div>
         <div className="relative z-0">
