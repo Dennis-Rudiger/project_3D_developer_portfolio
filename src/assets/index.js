@@ -21,10 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
 import podii from "./company/podii.png";
 import kengen from "./company/kengen.png";
 import randr from "./company/randr.png";
@@ -56,11 +53,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
+  podii,
+  kengen,
+  randr,
+  upwork,
+
+
 };

@@ -13,10 +13,6 @@ import {
   mongodb,
   git,
   figma,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -116,16 +112,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software engineer",
+    title: "Software Engineer",
     company_name: "Podii",
     icon: podii,
     iconBg: "#383E56",
     date: "May 2021 - Sept 2021",
     points: [
-      "Developing and maintaining web applications using Laravel, REST APIs, and front-end technologies like React.js.",
-      "Collaborating with cross-functional teams to integrate backend and front-end components.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and learning best practices from senior developers.",
+      "Developed and maintained various software applications using modern web technologies.",
+      "Collaborated with cross-functional teams to design, test, and deliver quality features.",
+      "Utilized best coding practices to ensure clean, maintainable, and efficient code.",
+      "Participated in code reviews, contributing ideas for continuous codebase improvement.",
     ],
   },
   {
@@ -135,10 +131,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2022 - Sept 2022",
     points: [
-      "Building web applications using Laravel for backend services and React.js for the front-end.",
-      "Developing RESTful APIs to support dynamic data interactions.",
-      "Working closely with designers and product managers to refine user experiences.",
-      "Enhancing skills through mentorship and collaborative problem-solving.",
+      "Assisted in the maintenance and troubleshooting of electrical systems in a production environment.",
+      "Collaborated with senior engineers to test and optimize electrical equipment performance.",
+      "Documented findings and recommended improvements for equipment reliability.",
+      "Gained hands-on experience in electrical safety and regulatory standards.",
     ],
   },
   {
@@ -148,10 +144,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2023 - Sept 2023",
     points: [
-      "Contributing to full-stack development projects with a focus on Laravel and REST API integration.",
-      "Utilizing React.js to build interactive and user-friendly front-end interfaces.",
-      "Collaborating with agile teams to optimize performance and delivery.",
-      "Continuously learning and applying best practices in fullstack development.",
+      "Supported engineering teams with system inspections, data collection, and analysis.",
+      "Helped identify and resolve mechanical and electrical issues to maintain efficient operations.",
+      "Shadowed senior engineers to gain exposure to power generation and safety protocols.",
+      "Contributed to improving processes through continuous learning and problem-solving.",
     ],
   },
   {
@@ -161,10 +157,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2024 - Present",
     points: [
-      "Developing scalable web applications by combining Laravel backends with modern front-end frameworks.",
-      "Implementing and consuming RESTful APIs to manage complex data flows.",
-      "Working in cross-functional teams to deliver seamless end-to-end solutions.",
-      "Participating in mentorship programs to further enhance fullstack development skills.",
+      "Built and maintained full-stack web applications using Laravel and React.js.",
+      "Implemented RESTful APIs and ensured smooth integration with front-end features.",
+      "Collaborated with cross-functional teams to develop and deploy scalable solutions.",
+      "Refined coding practices through mentorship, code reviews, and continuous feedback.",
     ],
   },
 ];
@@ -259,17 +255,17 @@ const projects = [
 
 export const socialLinks = [
   {
-    name: '',
+    name: 'github',
     icon: github,
     link: 'https://github.com',
   },
   {
-    name: '',
+    name: 'linkedin',
     icon: linkedin,
     link: 'https://linkedin.com',
   },
   {
-    name: '',
+    name: 'twitter',
     icon: twitter,
     link: 'https://twitter.com',
   },
