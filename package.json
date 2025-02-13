@@ -20,9 +20,9 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^6.8.1",
-    "react-tilt": "^0.1.4",
+    "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.149.0"
+    "three": "^0.159.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
@@ -32,5 +32,8 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.6",
     "vite": "^4.5.9"
+  },
+  "overrides": {
+    "three": "^0.159.0"
   }
 }
