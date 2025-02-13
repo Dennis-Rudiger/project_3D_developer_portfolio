@@ -18,7 +18,7 @@ const App = () => {
           <Navbar/>
           <Suspense fallback={<div>Loading...</div>}>
             <Hero/>
-          npm run convert-images          </Suspense>
+          </Suspense>
         </div>
         <Suspense fallback={<div>Loading...</div>}>
           <About/>
