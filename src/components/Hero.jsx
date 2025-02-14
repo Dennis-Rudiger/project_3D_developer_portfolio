@@ -22,6 +22,7 @@ const Hero = () => {
             I am a Fullstack developer, I create User<br className='sm:block hidden' />
             interfaces and web applications
           </p>
+
         </div>
       </div>
 

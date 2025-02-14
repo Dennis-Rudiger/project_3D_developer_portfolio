@@ -7,7 +7,7 @@
 </div>
 
 ## 🚀 Live Demo
-Check out the [live demo](https://3d-portfolio-denims.netlify.app/)
+Check out the [live demo](https://your-portfolio.vercel.app/)
 
 ## ✨ Features
 - 3D Hero Section with customizable desktop model
@@ -62,6 +62,30 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## 🌐 Deployment on Vercel
+
+1. **Create a Vercel Account**
+- Go to [vercel.com](https://vercel.com)
+- Sign up with your GitHub account
+
+2. **Deploy your portfolio**
+- Click "New Project"
+- Import your GitHub repository
+- Configure project settings:
+  - Framework Preset: Vite
+  - Root Directory: ./
+  - Build Command: `npm run build`
+  - Output Directory: dist
+- Add Environment Variables from your `.env` file
+- Click "Deploy"
+
+3. **Update Domain (Optional)**
+- Go to Project Settings
+- Navigate to Domains
+- Add or customize your domain
+
+Your portfolio will be automatically deployed whenever you push changes to your repository.
 
 ## 📱 Responsive Design
 Fully responsive across all devices:

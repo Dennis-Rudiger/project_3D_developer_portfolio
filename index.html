@@ -4,7 +4,30 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/src/assets/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dennis | Portfolio</title>
+    <meta name="description" content="3D Developer Portfolio showcasing web development and 3D modeling skills" />
+    <meta name="keywords" content="3D portfolio, web developer, three.js, React, developer portfolio" />
+    <meta name="author" content="Rudiga" />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="3D Developer Portfolio" />
+    <meta property="og:description" content="Interactive 3D portfolio showcasing web development projects" />
+    <meta property="og:image" content="/preview.png" />
+    <meta property="og:url" content="your-website-url.com" />
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="/desktop_pc/scene.gltf" as="fetch" crossorigin="anonymous">
+    <link rel="preload" href="/src/assets/herobg.png" as="image">
+    <link rel="preload" as="image" href="/hero.webp">
+    <link rel="preload" as="font" href="/fonts/main-font.woff2" type="font/woff2" crossorigin>
+    
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Enable compression -->  
+    <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+    
+    <title>3D Developer Portfolio | Rudiga</title>
   </head>
   <body>
     <div id="root"></div>

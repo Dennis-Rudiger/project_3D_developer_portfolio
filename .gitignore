@@ -25,5 +25,8 @@ dist-ssr
 
 .env
 
-# vscode
+# Additional ignores
+.next
+coverage
 .vscode
+.vercel

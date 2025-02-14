@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  /* Adjust Hero section */
+  .hero {
+    height: auto; /* allow height to adjust based on content */
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Adjust Contact section */
+  .contact {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
