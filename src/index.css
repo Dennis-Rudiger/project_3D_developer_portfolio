@@ -198,3 +198,44 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+/* New global styles and transitions */
+section {
+  scroll-margin-top: 100px; /* ensures sections are positioned correctly when scrolled to */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.nav-links a {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #915eff;
+  transform: translateY(-2px); /* improved hover feel */
+}
+
+/* Interactive elements */
+button, .project-card, .service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover, .project-card:hover, .service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Fade-in animation for elements */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
